@@ -1,5 +1,5 @@
 # gpsrepeater
-Usage
+Usage : Developed using Andriod Studio 2.1.2 so please download a copy to build and compile this android app
 
 Note: Never use this app for navigation purposes. Always protect your device near water with a waterproof case.
 
