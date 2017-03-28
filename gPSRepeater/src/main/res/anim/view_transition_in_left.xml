@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Special effect. Used with the view flipper (swiping finger to right)
+     Slides a new view in from the left
+     This view works in combination with the view that slides the existing view out the right
+ -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+         android:shareInterpolator="false">
+        <translate android:fromXDelta="-100%" android:toXDelta="0%"
+          android:fromYDelta="0%" android:toYDelta="0%"
+         android:duration="400"/>
+       </set>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Arrays to support the Settings view of the app
+-->
+<resources>
+ <string-array name="coordinateArray">
+ <item>Degrees Minutes Seconds</item>
+ <item>Degrees Minutes.Minutes</item>
+ <item>Decimal Degrees</item>
+ </string-array>
+
+<string-array name="coordinateValues">
+ <item>DMS</item>
+ <item>DDMM</item>
+ <item>DD</item>
+</string-array>
+
+<string-array name="speedArray">
+ <item>Metric</item>
+ <item>Imperial</item>
+ <item>Marine - Nautical</item>
+ </string-array>
+
+<string-array name="speedValues">
+ <item>M</item>
+ <item>I</item>
+ <item>N</item>
+</string-array>
+
+
+</resources>

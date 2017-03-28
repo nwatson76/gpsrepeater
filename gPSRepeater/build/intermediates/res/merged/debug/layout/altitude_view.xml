@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Altitude view
+-->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0" >
+                <com.nauticbits.gpsrepeater.FontFitTextView
+                    android:id="@+id/altitude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="---"
+                    android:textSize="500px"
+                    android:layout_marginTop="-70dp"
+                    android:layout_weight="80"
+                    android:gravity="center"
+                     />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.0" >
+                <TextView
+                    android:tag="STATIC"
+                    android:id="@+id/altitudeDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/altitude_m"
+                    android:textSize="25px"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:layout_weight="10"/>
+            </TableRow>
+        </TableLayout>

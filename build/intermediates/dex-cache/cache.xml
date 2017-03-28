@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\build\intermediates\exploded-aar\GPSRepeater\ambilWarna\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="92fcda8086346e72218e37f0ccc67b1ea83efa71">
+        <dex dex="C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\build\intermediates\pre-dexed\debug\GPSRepeater-ambilWarna-unspecified_ff5d120591a73d773269eeb3bff0d880608f1d44.jar" />
+    </item>
+    <item
+        jar="C:\Users\nwatson\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\build\intermediates\pre-dexed\debug\support-v4-18.0.0_d3d95830012e6e69ca72c77113c5f65b1767623d.jar" />
+    </item>
+
+</items>

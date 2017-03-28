@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Colors used in the app
+-->
+<resources>
+    <color name="listviewdividercolor">#484848</color>
+    <color name="red">#ff3300</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#2F4F4F</color>
+    <color name="transparent">#00000000</color>
+</resources>

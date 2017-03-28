@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\lock_ico.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\lock_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\back.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\back.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\ambilwarna_hue.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable\\ambilwarna_hue.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\night_lock_ico.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\night_lock_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\ambilwarna_cursor.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\night_unlock_ico.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\night_unlock_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\ambilwarna_arrow_down.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\button_night.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\button_night.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\settings_night.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\settings_night.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\button_day.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\button_day.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\ambilwarna_target.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable\\ambilwarna_target.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\ambilwarna_arrow_right.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\white.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\white.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable\\unlock_ico.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable\\unlock_ico.png"
+    }
+]

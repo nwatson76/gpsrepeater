@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GPSRepeater.iml" filepath="$PROJECT_DIR$/GPSRepeater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ambilWarna/ambilWarna.iml" filepath="$PROJECT_DIR$/ambilWarna/ambilWarna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gPSRepeater/gPSRepeater.iml" filepath="$PROJECT_DIR$/gPSRepeater/gPSRepeater.iml" />
+    </modules>
+  </component>
+</project>

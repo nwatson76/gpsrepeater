@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Latitude and Longitude view
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0" >
+                <com.nauticbits.gpsrepeater.FontFitTextView
+                    android:id="@+id/Longitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="---"
+                    android:textSize="400px"
+                    android:layout_weight="50"
+                    android:background="@drawable/back"
+                    android:gravity="center" />
+                <com.nauticbits.gpsrepeater.FontFitTextView
+                    android:id="@+id/Latitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="---"
+                    android:textSize="400px"
+                    android:background="@drawable/back"
+                    android:layout_weight="50"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.0" >
+                <TextView
+                    android:tag="STATIC"
+                    android:id="@+id/LongitudeDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/longitude_ddmm"
+                    android:textSize="25px"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:layout_weight="10"/>
+                <TextView
+                    android:tag="STATIC"
+                    android:id="@+id/LatitudeDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/latitude_ddmm"
+                    android:textSize="25px"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:layout_weight="10"/>
+                
+                
+            </TableRow>
+        </TableLayout>

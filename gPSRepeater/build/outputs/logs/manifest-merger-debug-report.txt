@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [GPSRepeater:ambilWarna:unspecified] C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\build\intermediates\exploded-aar\GPSRepeater\ambilWarna\unspecified\AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:11:5-34:19
+MERGED from [GPSRepeater:ambilWarna:unspecified] C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\build\intermediates\exploded-aar\GPSRepeater\ambilWarna\unspecified\AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:15:9-40
+uses-library#yuku.ambilwarna
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:16:9-81
+	android:required
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:16:54-78
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:16:23-53
+uses-library#yuku.ambilwarna.widget
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:17:6-85
+	android:required
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:17:58-82
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:17:20-57
+activity#com.nauticbits.gpsrepeater.HomeActivity
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:18:9-28:20
+	android:screenOrientation
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:21:13-50
+	android:label
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:19:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:26:27-74
+activity#com.nauticbits.gpsrepeater.HomePreferencesActivity
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:30:9-33:20
+	android:label
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:32:13-41
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:31:13-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:36:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:37:22-78
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:2:1-39:12 reason: yuku.ambilwarna has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\nwatson\StudioProjects\GPSRepeater\gPSRepeater\src\main\AndroidManifest.xml:2:1-39:12 reason: yuku.ambilwarna requested WRITE_EXTERNAL_STORAGE

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Shows Speed over ground and bearing metrics at once
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+    <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/back">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0" >
+                <com.nauticbits.gpsrepeater.FontFitTextView
+                    android:id="@+id/SOG2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="---"
+                    android:textSize="500px"
+                    android:layout_marginTop="-70dp"
+                    android:layout_weight="80"
+                    android:gravity="center"
+                     />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.0" >
+                <TextView
+                    android:tag="STATIC"
+                    android:id="@+id/SOG2Desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="SOG (Knots)"
+                    android:textSize="25px"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:layout_weight="10"/>
+            </TableRow>
+        </TableLayout>
+             
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/back">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0" >
+                <com.nauticbits.gpsrepeater.FontFitTextView
+                    android:id="@+id/Bearing2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="---"
+                    android:textSize="500px"
+                    android:layout_marginTop="-70dp"
+                    android:layout_weight="80"
+                    android:gravity="center"
+                     />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.0" >
+                <TextView
+                    android:tag="STATIC"
+                    android:id="@+id/Bearing2Desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bearing (Degrees)"
+                    android:textSize="25px"
+                    android:textColor="@color/white"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:layout_weight="10"/>
+            </TableRow>
+        </TableLayout>
+        
+        
+    </TableRow>
+    
+</TableLayout>
+        
+
+        

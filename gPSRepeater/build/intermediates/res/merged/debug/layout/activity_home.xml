@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:id="@+id/gpsLayout">
+    
+	<!--
+     Main view, containing a view flipper that references other views displaying various other GPS metrics. Also included are the settings, day and night, and locking icons with clickable events
+	-->
+
+    <ViewFlipper android:id="@+id/flipper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@+id/sogBearingView"  layout="@layout/sog_bearing_view" />
+        <include android:id="@+id/sogView"  layout="@layout/sog_view" />
+        <include android:id="@+id/latlongView"  layout="@layout/latlong_view" />
+        <include android:id="@+id/bearingView"  layout="@layout/bearing_view" />
+        <include android:id="@+id/altitudeView"  layout="@layout/altitude_view" />
+        <include android:id="@+id/sixPackView"  layout="@layout/six_pack" />
+    </ViewFlipper>
+    
+    <ImageView
+         android:id="@+id/day"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/button_day"
+         android:contentDescription="Day"
+         android:visibility="visible"
+         android:layout_alignParentLeft="true"
+         android:clickable="true"
+         android:onClick="nightClick"/>
+<!--      android:paddingTop="40dip" -->
+     <ImageView
+         android:id="@+id/night"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/button_night"
+         android:visibility="visible"
+         android:layout_alignParentLeft="true" 
+      	 android:clickable="true"
+        
+      	 android:contentDescription="Night"
+         android:onClick="dayClick" />
+<!--       android:paddingTop="40dip" -->
+     <ImageView
+         android:id="@+id/lock"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/lock_ico"
+         android:visibility="invisible"
+         android:layout_alignParentRight="true" 
+      	 android:clickable="true"
+      	 
+      	 android:contentDescription="Lock"
+      	 android:gravity="right"
+         android:onClick="lockClick" />
+<!--      android:paddingTop="40dip" -->
+     <ImageView
+         android:id="@+id/unlock"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/unlock_ico"
+         android:visibility="invisible"
+         android:layout_alignParentRight="true" 
+      	 android:clickable="true"
+      	 android:paddingTop="10dip"
+      	 android:contentDescription="Un-lock"
+      	 android:gravity="right"
+         android:onClick="unlockClick" />
+     
+     <ImageView
+         android:id="@+id/nightlock"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/night_lock_ico"
+         android:visibility="invisible"
+         android:layout_alignParentRight="true" 
+      	 android:clickable="true"
+      	 
+      	 android:contentDescription="Lock"
+      	 android:gravity="right"
+         android:onClick="lockClick" />
+<!--      android:paddingTop="40dip" -->
+     <ImageView
+         android:id="@+id/nightunlock"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/night_unlock_ico"
+         android:visibility="invisible"
+         android:layout_alignParentRight="true" 
+      	 android:clickable="true"
+      	 android:paddingTop="10dip"
+      	 android:contentDescription="Un-lock"
+      	 android:gravity="right"
+         android:onClick="unlockClick" />
+     
+     <ImageView
+         android:id="@+id/nightsettings"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/settings_night"
+         android:visibility="invisible"
+         android:layout_alignParentLeft="true" 
+         android:layout_alignParentBottom="true" 
+      	 android:clickable="true"
+      	 android:contentDescription="Settings"
+      	 android:gravity="left"
+      	 android:paddingBottom="30dip"
+         android:onClick="settingsClick" />
+<!--      android:paddingTop="40dip" -->
+     <ImageView
+         android:id="@+id/settings"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/settings"
+         android:visibility="invisible"
+         android:layout_alignParentLeft="true" 
+         android:layout_alignParentBottom="true" 
+      	 android:clickable="true"
+      	 android:paddingBottom="30dip"
+      	 android:contentDescription="Settings"
+      	 android:gravity="left"
+         android:onClick="settingsClick" />
+     
+</RelativeLayout>

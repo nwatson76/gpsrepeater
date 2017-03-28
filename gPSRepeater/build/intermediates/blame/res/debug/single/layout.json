@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\ambilwarna_dialog.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\layout\\ambilwarna_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\sog_view.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\sog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\six_pack.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\six_pack.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\altitude_view.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\altitude_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\quad_view.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\quad_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\latlong_view.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\latlong_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\ambilwarna_pref_widget.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\layout\\ambilwarna_pref_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\sog_bearing_view.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\sog_bearing_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\layout\\bearing_view.xml",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\layout\\bearing_view.xml"
+    }
+]

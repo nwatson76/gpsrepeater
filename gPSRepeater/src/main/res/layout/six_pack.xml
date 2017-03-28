@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Shows all GPS metrics at once available from this app
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+   <TableRow
+	   android:layout_width="match_parent"
+	   android:layout_height="match_parent"
+	   android:layout_weight="1.0">
+                
+        <com.nauticbits.gpsrepeater.FontFitTextView
+	        android:id="@+id/SOG3"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/back"
+	        android:text="---"
+	        android:textSize="500px"
+	        android:layout_marginTop="-40dp"
+	        android:layout_weight="33"
+	        android:gravity="center"
+                     />
+        <com.nauticbits.gpsrepeater.FontFitTextView
+	        android:id="@+id/Bearing3"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/back"
+	        android:text="---"
+	        android:textSize="500px"
+	        android:layout_marginTop="-40dp"
+	        android:layout_weight="33"
+	        android:gravity="center"
+	         />
+        <com.nauticbits.gpsrepeater.FontFitTextView
+	        android:id="@+id/altitude2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/back"
+	        android:text="---"
+	        android:textSize="500px"
+	        android:layout_marginTop="-40dp"
+	        android:layout_weight="33"
+	        android:gravity="center"
+            />
+     </TableRow>
+      <TableRow
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"
+	      android:layout_weight="0.0" >
+     	<TextView
+	        android:tag="STATIC"
+	        android:id="@+id/SOG3Desc"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="SOG (Knots)"
+	        android:textSize="25px"
+	        android:textColor="@color/white"
+	        android:background="@color/gray"
+	        android:gravity="center"
+	        android:layout_weight="33"/>
+     	<TextView
+			android:tag="STATIC"
+			android:id="@+id/Bearing3Desc"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Bearing (Degrees)"
+			android:textSize="25px"
+			android:textColor="@color/white"
+			android:background="@color/gray"
+			android:gravity="center"
+			android:layout_weight="33"/>
+     	<TextView
+	        android:tag="STATIC"
+	        android:id="@+id/altitude2Desc"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="Altitude (Meters)    "
+	        android:textSize="25px"
+	        android:textColor="@color/white"
+	        android:background="@color/gray"
+	        android:gravity="center"
+	        android:layout_weight="33"/>
+      </TableRow>
+      
+      <TableRow
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_weight="1.0">
+     
+	     <com.nauticbits.gpsrepeater.FontFitTextView
+	         android:id="@+id/Longitude2"
+	         android:layout_width="match_parent"
+	         android:layout_height="match_parent"
+	         android:text="---"
+	         android:textSize="400px"
+	         android:layout_weight="33"
+	         android:background="@drawable/back"
+	         android:gravity="center" />
+	     <com.nauticbits.gpsrepeater.FontFitTextView
+             android:id="@+id/Latitude2"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="---"
+             android:textSize="400px"
+             android:background="@drawable/back"
+             android:layout_weight="33"
+             android:gravity="center" />
+	     <com.nauticbits.gpsrepeater.FontFitTextView
+			android:id="@+id/place1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="NauticBits Software"
+			android:textSize="500px"
+			android:layout_marginTop="-70dp"
+			android:layout_weight="33"
+			android:gravity="center"
+			 />
+      </TableRow>
+      
+	  <TableRow
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"
+	      android:layout_weight="0.0">
+        
+	      <TextView
+	          android:tag="STATIC"
+	          android:id="@+id/Longitude2Desc"
+	          android:layout_width="match_parent"
+	          android:layout_height="match_parent"
+	          android:text="@string/longitude_ddmm"
+	          android:textSize="25px"
+	          android:textColor="@color/white"
+	          android:background="@color/gray"
+	          android:gravity="center"
+	          android:layout_weight="33"/>
+	      <TextView
+	          android:tag="STATIC"
+	          android:id="@+id/Latitude2Desc"
+	          android:layout_width="match_parent"
+	          android:layout_height="match_parent"
+	          android:text="@string/latitude_ddmm"
+	          android:textSize="25px"
+	          android:textColor="@color/white"
+	          android:background="@color/gray"
+	          android:gravity="center"
+	          android:layout_weight="33"/>
+	      <TextView
+	          android:tag="STATIC"
+	          android:id="@+id/place2"
+	          android:layout_width="match_parent"
+	          android:layout_height="match_parent"
+	          android:text="NauticBits Software"
+	          android:textSize="25px"
+	          android:textColor="@color/white"
+	          android:background="@color/gray"
+	          android:gravity="center"
+	          android:layout_weight="33"/>
+      </TableRow>
+</TableLayout>
+        
+
+        

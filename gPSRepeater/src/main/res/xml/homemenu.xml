@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Setting list for the app. We use yuku.ambilwarna.widget for color picking
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="GPS Output Settings">
+        <ListPreference 
+		    android:key="itemCoordinateSetting"
+		    android:title="Coordinate Settings" 
+		    android:summary="Choose the coordinate display format"
+		    android:entryValues="@array/coordinateValues" 
+		    android:entries="@array/coordinateArray">
+		</ListPreference>
+		<ListPreference 
+		    android:key="itemSpeedSetting"
+		    android:title="Speed Settings" 
+		    android:summary="Choose the speed display format"
+		    android:entryValues="@array/speedValues" 
+		    android:entries="@array/speedArray">
+		</ListPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Day and Night Settings">
+		<SwitchPreference android:key="itemAutoDayNightSetting"
+		    android:title="Auto Sense" 
+		    android:defaultValue="false"
+		    android:summary="Auto Sense sunlight or darkness. Switch between preset colors" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Log Settings">
+		<SwitchPreference android:key="itemLogSetting"
+		    android:title="Log GPS Info" 
+		    android:defaultValue="false"
+		    android:summary="Record GPS data to a log file on your device. Data logged to gpsrepeater/gps.log" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Color Settings">
+        <yuku.ambilwarna.widget.AmbilWarnaPreference
+                android:key="nightColorTextSetting"
+                android:defaultValue="@color/red" 
+                android:title="Night text color" />
+    <yuku.ambilwarna.widget.AmbilWarnaPreference
+                android:key="nightColorBackgroundSetting"
+                android:defaultValue="@color/black" 
+                android:title="Night background color" />
+    <yuku.ambilwarna.widget.AmbilWarnaPreference
+                android:key="dayColorTextSetting"
+                android:defaultValue="@color/black" 
+                android:title="Day text color" />
+    <yuku.ambilwarna.widget.AmbilWarnaPreference
+                android:key="dayColorBackgroundSetting"
+                android:defaultValue="@color/gray" 
+                android:title="Day background color" />
+    </PreferenceCategory>
+</PreferenceScreen>

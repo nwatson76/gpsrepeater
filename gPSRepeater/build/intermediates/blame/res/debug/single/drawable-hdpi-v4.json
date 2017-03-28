@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ambilwarna_arrow_right.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable-hdpi-v4\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ambilwarna_arrow_down.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable-hdpi-v4\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ambilwarna_cursor.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable-hdpi-v4\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ambilwarna_target.png",
+        "source": "C:\\Users\\nwatson\\StudioProjects\\GPSRepeater\\gPSRepeater\\build\\intermediates\\exploded-aar\\GPSRepeater\\ambilWarna\\unspecified\\res\\drawable-hdpi-v4\\ambilwarna_target.png"
+    }
+]
