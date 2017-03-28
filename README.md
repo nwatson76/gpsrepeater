@@ -8,6 +8,11 @@ Wrap your device in a waterproof case and take GPS Repeater anywhere
 Waterproof and mount your device near your navigation console and run GPS Repeater
 Tell us how you use GPS Repeater in our comment section!
 
+</br>
+<p align="center">
+  <img src="https://github.com/nwatson76/gpsrepeater" />
+</p>
+
 Features
  
 Show data from your built in device GPS
