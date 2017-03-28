@@ -12,8 +12,6 @@ Tell us how you use GPS Repeater in our comment section!
 <p align="center">
   
   <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-17.png" />
-  <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-42.png" />
-  <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-49.png " />
 </p>
 
 Features
@@ -42,4 +40,13 @@ Night settings are Black background with Red characters
 Prevent accidental swipe by locking and unlocking touch and slide
 Turn On/Off GPS logging
 Turn On/Off Auto Sensing
+
+<p align="center">
+  
+  
+  <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-42.png" />
+  <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-49.png " />
+</p>
+
+
 
