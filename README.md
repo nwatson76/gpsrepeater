@@ -10,7 +10,7 @@ Tell us how you use GPS Repeater in our comment section!
 
 </br>
 <p align="center">
-  <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-13.png" />
+  
   <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-17.png" />
   <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-42.png" />
   <img src="https://github.com/nwatson76/gpsrepeater/blob/master/Screenshot_2017-03-28-00-58-49.png " />
